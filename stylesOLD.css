@@ -1,0 +1,97 @@
+/* h1 {
+    color: orange;
+    background-color: slategray;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+p {
+    color: slategray;
+    text-align: right;
+    line-height: 30px;
+    letter-spacing: 3px;
+    column-count: 2;
+    column-gap: 60px;
+}
+ul{
+    /* border-width: 0.5px;
+    border-style: solid;
+    border-color: crimson; */
+    /* border: 0.5px solid crimson; */
+    /*border-bottom: 4px dotted #ab55ef;
+    border-left: 8px dashed #ab55ef;*/
+/* }
+li{ */
+    /* list-style-type: square; */
+    /*list-style-type: circle;
+    /* text-shadow: 2px 2px lightgrey; */
+    /*text-shadow: 2px 2px #E9E9E9;
+} */
+
+/* span{
+    /* display: block; */
+   /* display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+div{*/
+    /* display: inline; */
+    /*border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+} */
+
+/* p.error{
+    color: red;
+}
+p.success{
+    color: green;
+}
+p.success.feedback{
+    border: 1px dashed green;
+}
+#content{
+    background-color: #ebebeb;
+    padding: 20px;
+} */
+/* 
+div .error{
+    color: purple;
+} */
+
+/*this definition grabs the specified information only*/
+/* a[href="www.theninja.co.uk"]{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+/*this definition grabs the info that includes the words requested in the body*/
+/* a[href*="theninja"]{
+    color: white;
+    background: red;
+    border: 2px solid blue;
+} */
+
+/*this definition grabs the info that includes the last words for example .pdf or .png */
+/* a[href$=".com"]{
+    color: white;
+    background: red;
+    border: 2px solid blue;
+} */
+
+div{
+    color: lightcoral;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+}
+
+div p{
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}

@@ -46,6 +46,17 @@ _Initialize() {
     light = new THREE.AmbientLight(0x404040);
     this._scene.add(light);
 
+    const constrols = new OrbitControls(
+        this._camera, this.threejs.domElement);
+    constrols.target.set(0, 0, 0);
+    constrols.update();
+
+    const loader = new THREE.CubeTextureLoader();
+    const texture = loader.load([
+        './resources/sky.jpg'
+    ]);
+    this._scene.background = texture;
+
     this._RAF();
     }
 
@@ -53,14 +64,12 @@ _Initialize() {
         this._camera.aspect = window.innerWidth / window.innerHeight;
         this._camera.updateProjectMatrix();
         this._threejs.setSize(window.innerWidth, window.innerHeight);
-    }
-    
+    }    
 
     _RAF() {
         requestAnimationFrame(() => {
             this._threejs.render(this._scene, this._camera);
             this._RAF();
-        });
-        
+        });        
     }
 }

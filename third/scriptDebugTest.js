@@ -27,6 +27,6 @@ const input = document.getElementById('textElement')
 
 
 button.addEventListener('click', () => {
-    console.log(input.value)
-    debugger;
+    console.log(input.value
+    // debugger;
 })

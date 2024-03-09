@@ -1,0 +1,3 @@
+{"URL": "http://localhost:8081/grasshopper",
+"content": {"absolutetolerance":0.001,"angletolerance":1.0,"modelunits":"Millimeters","algo":null,"pointer":"md5_318C01714197DCFE44F1214A8C06C9D0","cachesolve":true,"recursionlevel":0,"values":[{"ParamName":"Radius","InnerTree":{"{0}":[{"type":"System.Double","data":"5.0"}]}},{"ParamName":"Count","InnerTree":{"{0}":[{"type":"System.Int32","data":"5"}]}},{"ParamName":"Length","InnerTree":{"{0}":[{"type":"System.Double","data":"7.0"}]}}],"warnings":[],"errors":[]}
+}
